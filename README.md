@@ -6,10 +6,17 @@
 ## Training and Evaluation
 
 ### Train
-`python train.py`
+You need to modify the training path in the `datasets.py` file to train your own dataset.
+```
+python train.py
+```
 
 ### Test
-`python test.py`
+You need to modify the testing path in the datasets.py file to test your own dataset.
+```
+python test.py
+
+```
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
