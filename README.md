@@ -6,9 +6,10 @@
 ## Training and Evaluation
 
 ### Train
-
+`python train.py`
 
 ### Test
+`python test.py`
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
