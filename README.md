@@ -12,7 +12,7 @@ python train.py
 ```
 
 ### Test
-You need to modify the testing path in the datasets.py file to test your own dataset.
+You need to modify the testing path in the `datasets.py` file to test your own dataset.
 ```
 python test.py
 
