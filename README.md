@@ -17,6 +17,8 @@ You need to modify the testing path in the `datasets.py` file to test your own d
 python test.py
 
 ```
+### Download
+You can download the pretrained models BaiduPan (TODO).
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
