@@ -57,11 +57,11 @@ class TestOptions():
         self.parser = argparse.ArgumentParser()
         
         # ---------------------------------------- step 1/4 : parameters preparing... ----------------------------------------
-        self.parser.add_argument("--outputs_dir", type=str, default='/wangjunhu/stereo/stereo1.72.2/outputs_indoor', help="path of saving images")
+        self.parser.add_argument("--outputs_dir", type=str, default='../outputs', help="path of saving images")
         self.parser.add_argument("--experiment", type=str, default='experiment', help="name of experiment")
         
         # ---------------------------------------- step 2/4 : data loading... ------------------------------------------------
-        self.parser.add_argument("--data_source", type=str, default='../../RESIDE/SOTS', required=False, help="dataset root")
+        self.parser.add_argument("--data_source", type=str, default='../data', required=False, help="dataset root")
         
         # ---------------------------------------- step 3/4 : model defining... ------------------------------------------------
         self.parser.add_argument("--model_path", type=str, default=None, required=False, help="pretrained model path")
